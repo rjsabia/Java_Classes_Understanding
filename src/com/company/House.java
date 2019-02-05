@@ -4,9 +4,11 @@ public class House {
 
     // Main variable for example
     private String color;
+    private int bedrooms;
 
-    public House(String color) {
+    public House(String color, int bedrooms) {
         this.color = color;
+        this.bedrooms = bedrooms;
     }
 
     // House getter
@@ -14,8 +16,17 @@ public class House {
         return color;
     }
 
+    public int getBedrooms() {
+        return bedrooms;
+    }
+
     // House setter
     public void setColor(String color) {
         this.color = color;
     }
+
+    public void setBedrooms(int bedrooms) {
+        this.bedrooms = bedrooms;
+    }
+
 }
