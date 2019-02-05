@@ -29,5 +29,12 @@ public class Main {
 
         System.out.println(bedroomsHouse.getBedrooms() + " Bedrooms");
         System.out.println(bedroomsHouse.getColor());
+
+        // Testing for Default constructor
+        House defaultTestHouse = new House();
+
+        // Default output test
+        System.out.println(defaultTestHouse.getColor());
+        System.out.println(defaultTestHouse.getBedrooms());
     }
 }

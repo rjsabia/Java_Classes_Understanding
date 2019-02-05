@@ -6,6 +6,12 @@ public class House {
     private String color;
     private int bedrooms;
 
+    // Setup default house
+    public House() {
+        this("Pink --> Default", 3);
+        System.out.println("Default empty constructor has been called");
+    }
+
     public House(String color, int bedrooms) {
         this.color = color;
         this.bedrooms = bedrooms;
