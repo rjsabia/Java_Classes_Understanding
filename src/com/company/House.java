@@ -17,11 +17,12 @@ public class House {
         this.bedrooms = bedrooms;
     }
 
-    // House getter
+    // House color getter
     public String getColor() {
         return color;
     }
 
+    // house bedrooms
     public int getBedrooms() {
         return bedrooms;
     }
@@ -31,6 +32,7 @@ public class House {
         this.color = color;
     }
 
+    // Bedrooms setter
     public void setBedrooms(int bedrooms) {
         this.bedrooms = bedrooms;
     }
